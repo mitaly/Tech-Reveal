@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="words">
+        <item>UNDERFLOW</item>
+        <item>DECODER</item>
+        <item>HISTOGRAM</item>
+        <item>LUMINOSITY</item>
+        <item>VIRTUALIZATION</item>
+        <item>THROUGHPUT</item>
+        <item>HONEYPOT</item>
+        <item>PHISHING</item>
+        <item>DEADLOCK</item>
+        <item>LATENCY</item>
+        <item>VERILOG</item>
+        <item>SCHOTTKY</item>
+        <item>PENTIUM</item>
+        <item>NANOTUBE</item>
+        <item>DUALITY</item>
+        <item>KNAPSACK</item>
+        <item>PROCESSOR</item>
+        <item>THYRISTOR</item>
+        <item>HIBERNATE</item>
+        <item>SEPARATOR</item>
+        <item>EXCEPTION</item>
+        <item>MEMOIZATION</item>
+        <item>HYPERLINK</item>
+        <item>SPOOFING</item>
+
+    </string-array>
+
+</resources>

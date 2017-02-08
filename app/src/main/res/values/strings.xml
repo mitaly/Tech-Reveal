@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Tech-Reveal</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="title_activity_word_list">WordListActivity</string>
+    <string name="title_activity_blank">Blank</string>
+    <string name="title_activity_meaning">MeaningActivity</string>
+    <string name="large_text">
+    </string>
+    <string name="title_activity_tabbed">Tabbed</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_help">HelpActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_word_meaning">WordMeaningActivity</string>
+    <string name="title_activity_word_meaning_fragment">WordMeaningFragment</string>
+
+
+    <string name="hello_world">Hello world!</string>
+    <string name="gallows">The Gallows</string>
+    <string name="head">The Head</string>
+    <string name="body">The Body</string>
+    <string name="arm">An Arm</string>
+    <string name="leg">A Leg</string>
+
+</resources>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.techeducation.tech_reveal">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo2"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SubjectsActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".WordListActivity"
+            android:label="@string/title_activity_word_list"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <provider
+            android:name=".ContentProviderWords"
+            android:authorities="com.techeducation.wordscp"
+            android:enabled="true"
+            android:exported="true" />
+        <provider
+            android:name=".ContentProviderRecFav"
+            android:authorities="com.techeducation.recfavcp"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name=".RecentActivity" />
+        <activity android:name=".FavouritesActivity" />
+        <activity android:name=".RateAppActivity" />
+        <activity
+            android:name=".HelpActivity"
+            android:label="@string/title_activity_help"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".WordMeaningActivity"
+            android:label="@string/title_activity_word_meaning"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <receiver
+            android:name=".NotificationReceiver"
+            android:enabled="true"
+            android:exported="true"
+            android:process=":remote" />
+
+        <service
+            android:name=".NotificationService"
+            android:exported="false" />
+
+        <activity android:name=".QuizMain" />
+        <activity android:name=".ResultActivity" />
+        <activity
+            android:name=".GameActivity"
+            android:label="Hangman" />
+        <activity android:name=".MainActivity">
+
+        </activity>
+    </application>
+
+</manifest>

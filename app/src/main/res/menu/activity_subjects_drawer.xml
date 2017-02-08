@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/grp1">
+        <item
+            android:id="@+id/nav_recentWords"
+            android:icon="@drawable/recent2"
+            android:title="Recent Words" />
+        <item
+            android:id="@+id/nav_favourites"
+            android:icon="@drawable/fav"
+            android:title="Favourites" />
+    </group>
+
+    <group android:checkableBehavior="single"
+            android:id="@+id/grp2">
+            <item
+                android:id="@+id/nav_help"
+                android:icon="@drawable/help1"
+                android:title="Help" />
+            <item
+                android:id="@+id/nav_rateApp"
+                android:icon="@drawable/rating2"
+                android:title="Rate Dictionary" />
+        </group>
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/grp3">
+        <item
+            android:id="@+id/nav_exit"
+            android:icon="@drawable/exit1"
+            android:title="Exit" />
+    </group>
+
+
+
+</menu>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3c3c3d</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="iconFab">#ffffff</color>
+    <color name="backgrndFab">#454546</color>
+    <color name="cardviewColor">#454546</color>
+    <color name="navText">#ffffff</color>
+    <color name="navDivider">#807f7f</color>
+    <color name="navView">#375d69</color>
+    <color name="line">#a7a7a7</color>
+</resources>
+

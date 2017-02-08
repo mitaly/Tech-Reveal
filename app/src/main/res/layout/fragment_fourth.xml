@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    >
+    <android.support.v7.widget.CardView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:layout_gravity="center_horizontal">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:padding="16dp"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Choose/Search Word"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="20dp"
+                android:id="@+id/textView3" />
+            <View
+                android:layout_width="120dp"
+                android:layout_gravity="center"
+                android:layout_height="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_alignParentTop="true"
+                android:background="@color/line"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17dp"
+                android:layout_marginTop="10dp"
+                android:text="1.After choosing the subject, select the word and get its meaning.\n\n
+2.To obtain any Random word, click here.\n\n
+3.Click here and access the meaning of required word by speaking out that word."
+                android:textColor="@android:color/black"
+                android:id="@+id/textView2"
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="450dp"
+                android:background="@drawable/word_list"
+                android:layout_marginTop="20dp"
+                android:id="@+id/imageView2"
+                />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="50dp"/>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</ScrollView>
+
